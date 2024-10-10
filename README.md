@@ -14,11 +14,7 @@
 2. Atribut: Variabel yang menyimpan data untuk setiap objek yang dibuat. Sebagai contoh, untuk **AkunBank**, atribut-atributnya adalah `Saldo`, sedangkan untuk **Person**, atribut-atributnya adalah `Nama`, `Jenis Kelamin`, dan `Umur`.
 3. Metode (Fungsi): Ini adalah perilaku yang dapat dilakukan oleh objek. Misalnya, pada **AkunBank**, metode yang didefinisikan adalah `SimpanUang()`, `CekSaldo()`, dan `AmbilUang()`. Pada **Person**, ada metode `TampilkanInfo()`.
 - Buatlah gambar diagram class dan dua buah objek dari class Person bernama Antor dan Riko
-| Person |
-|----------|
-| Nama |
-| Jenis Kelamin |
-| Umur |
+
 
 - Buatlah gambar diagram objek AkunBank dengan instance method simpanUang, ambilUang dan cekSaldo
 
