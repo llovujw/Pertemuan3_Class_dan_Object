@@ -27,7 +27,13 @@ Buatlah kode program java untuk:
 Buatlah kode java untuk:
 - Mendeklarasikan class AkunBank dengan instance method simpanUang, ambilUang dan cekSaldo
 - Buat objek AkunBank dan tetapkan nilai saldo awal Rp. 100000, kemudian panggil 3 method tersebut dan tampilkan proses berikut:
-![7](ss/7.png)
+Selamat Datang di Bank ABC<br>
+Saldo saat ini: Rp. 100000<br>
+Simpan uang: Rp. 500000<br>
+Saldo saat ini: Rp. 600000<br>
+Ambil uang: Rp. 150000<br>
+Saldo saat ini: Rp. 450000
+
 
 
 ![1](ss/2.png)
