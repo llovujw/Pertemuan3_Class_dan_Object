@@ -22,7 +22,7 @@
 Buatlah kode program java untuk:
 - Mendeklarasikan class Person, dengan atribut Nama, JenisKelamin, Umur
 - Buatlah dua buah objek dari class Person bernama Anton dan Riko
-``` Java
+``` javascript
 public class Person {
     // Atribut dari class Person
     String nama;
@@ -71,7 +71,7 @@ Simpan uang: Rp. 500000<br>
 Saldo saat ini: Rp. 600000<br>
 Ambil uang: Rp. 150000<br>
 Saldo saat ini: Rp. 450000
-``` Java
+``` javascript
 public class AkunBank {
     int saldo = 100000; // Saldo awal
 
