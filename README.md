@@ -58,6 +58,62 @@ public class Person {
     }
 }
 ```
+### Penjelasan
+1. Deklarasi Class **Person**
+``` javascript
+public class Person {
+```
+- Baris ini mendeklarasikan class **Person**. Keyword public berarti class ini dapat diakses dari file atau package lain.
+2. Atribut Class **Person**
+``` javascript
+    String nama;
+    String jenisKelamin;
+    int umur;
+```
+- Atribut `nama`, `jenisKelamin`, dan `umur` dideklarasikan dengan tipe data masing-masing. Karena tidak ada modifier seperti private atau public, atribut ini memiliki akses default (dapat diakses oleh class dalam package yang sama).
+3. Constructor Class **Person**
+``` javascript
+    public Person(String nama, String jenisKelamin, int umur) {
+        this.nama = nama;
+        this.jenisKelamin = jenisKelamin;
+        this.umur = umur;
+    }
+```
+- Constructor adalah method khusus yang dipanggil saat objek baru dibuat. Constructor ini menerima tiga parameter (`nama`, `jenisKelamin` dan `umur`) untuk menginisialisasi atribut dari objek yang dibuat.
+- Kata kunci `this` digunakan untuk membedakan antara variabel parameter (misalnya `nama`) dan atribut class (`this.nama`).
+4. Method `tampilkanInfo`
+``` javascript
+    public void tampilkanInfo() {
+        System.out.println("Nama: " + nama);
+        System.out.println("Jenis Kelamin: " + jenisKelamin);
+        System.out.println("Umur: " + umur);
+    }
+```
+Method ini digunakan untuk menampilkan informasi dari objek **Person**. Setiap kali method ini dipanggil, atribut `nama`, `jenisKelamin`, dan `umur` ditampilkan di konsol.
+5. Method `main` (Program Utama)
+``` javascript
+    public static void main(String[] args) {
+```
+- Method `main` adalah titik awal eksekusi program Java. Ini adalah method yang akan dieksekusi ketika program dijalankan.
+6. Membuat Objek Anton dan Riko
+``` javascript
+        Person anton = new Person("Anton", "Laki-laki", 25);
+        Person riko = new Person("Riko", "Laki-laki", 30);
+```
+- Dua objek dari class **Person** dibuat: anton dan riko.
+- Saat objek dibuat, constructor dipanggil dengan nilai parameter yang sesuai untuk masing-masing atribut.
+- Untuk objek anton, nama diatur menjadi "Anton", jenis kelamin diatur menjadi "Laki-laki", dan umur diatur menjadi 25.
+- Untuk objek riko, nama diatur menjadi "Riko", jenis kelamin diatur menjadi "Laki-laki", dan umur diatur menjadi 30.
+7. Menampilkan Informasi Anton dan Riko
+``` javascript
+        System.out.println("Informasi Anton:");
+        anton.tampilkanInfo();
+
+        System.out.println("\nInformasi Riko:");
+        riko.tampilkanInfo();
+```
+- Method `tampilkanInfo` dipanggil untuk objek anton dan riko, sehingga informasi mereka masing-masing ditampilkan di konsol.
+
 #### Tampilan output
 ![6](ss/output3.png)
 
